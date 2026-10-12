@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "personahood-memory": {
+      "command": "python",
+      "args": ["-m", "personahood_memory.mcp_server"],
+      "env": {
+        "MEMORY_ROOT": "/absolute/path/to/your/memory/workspace"
+      }
+    }
+  }
+}

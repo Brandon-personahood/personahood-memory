@@ -1,0 +1,4 @@
+# Optional defaults for `ph-memory chat`
+model = "gpt-4.1-mini"
+model_context_tokens = 128000
+max_live_tokens = 250000
